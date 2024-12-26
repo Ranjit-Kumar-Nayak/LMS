@@ -1,0 +1,53 @@
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm/
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+
+# Build outputs
+dist/
+build/
+
+# Coverage directories
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+
+# Dependency directories for monorepos (if applicable)
+packages/*/node_modules/
+
+# If using Docker
+docker-compose.override.yml
+.dockerignore
+
+# If using Jest for testing
+jest-coverage/
